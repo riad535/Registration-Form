@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     firstNamePara.innerText = 'Full Name: ' + data.firstName;
   
     const datePara = document.createElement('p');
-    datePara.innerText = 'Birth of Date: ' + data.date;
+    datePara.innerText = 'Date of Birth: ' + data.date;
   
     const emailPara = document.createElement('p');
     emailPara.innerText = 'Email: ' + data.email;
